@@ -1,5 +1,7 @@
 sudo: required
-language: node
+language: node_js
+node_js:
+  - "node"
 before_install:
 - curl https://raw.githubusercontent.com/apex/apex/master/install.sh | sudo sh
 deploy:
