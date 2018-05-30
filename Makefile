@@ -1,6 +1,9 @@
 all:
 	@echo make {dev,demo,prod} to deploy
 
+test:
+	@echo Unimplemented
+
 dev:
 	@echo $$AWS_ACCESS_KEY_ID
 	apex -r ap-southeast-1 --env dev deploy
