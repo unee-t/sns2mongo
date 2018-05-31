@@ -4,6 +4,5 @@
   "memory": 512,
   "runtime": "nodejs8.10",
   "timeout": 20,
-  "role": "arn:aws:iam::812644853088:role/alambda_lambda_function",
-  "environment": {}
+  "role": "arn:aws:iam::812644853088:role/alambda_lambda_function"
 }
