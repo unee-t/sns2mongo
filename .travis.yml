@@ -4,7 +4,7 @@ node_js:
   - "node"
 before_install:
 - curl https://raw.githubusercontent.com/apex/apex/master/install.sh | sudo sh
-- cd functions/simple/ && npm i
+- cd functions/simple/ && npm i && cd ../..
 deploy:
  # dev
  - provider: script
