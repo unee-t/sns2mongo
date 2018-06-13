@@ -26,4 +26,15 @@ testprod:
 	apex -r ap-southeast-1 --env prod invoke simple < event.json
 
 
+deletedev:
+	apex -r ap-southeast-1 --env dev delete
+
+deletedemo:
+	apex -r ap-southeast-1 --env demo delete
+
+deleteprod:
+	apex -r ap-southeast-1 --env prod delete
+
+
+
 .PHONY: dev demo prod testdev testdemo testprod

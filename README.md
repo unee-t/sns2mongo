@@ -1,3 +1,11 @@
+# DEPRECATED
+
+Instead the Frontend receives the SNS hook directly and writes into Mongo.
+
+As a rule of thumb, only Frontend should write into the MongoDB!
+
+
+
 Part of the [notification project](https://github.com/orgs/unee-t/projects/2)
 
 This inserts the SNS message payload from **ut_notification_messages_cases** to
